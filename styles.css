@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+a {
+  text-decoration-line: none;
+  color: #ddd;
+  font-size: 16px;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9faf8;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  padding: 100px 0;
+  gap
+}
+
+.text {
+  width: 40%;
+}
+
+.image {
+  width: 40%;
+  height: auto;
+  background-color: #6d747d;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8
+}
+
+.subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 8px 0;
+}
+
+.text button {
+  padding: 8px 16px;
+  background-color: #3882f6;
+  color: #fff;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.info {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #3882f6;
+  border-radius: 8px; 
+}
+
+.description {
+  width: 120px;
+  font-size: 12px;
+}
+
+.illustration {
+  padding: 20px 0 50px 0;
+}
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  padding: 50px 100px;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  width: 70%;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+.modal .text {
+  color: #f9faf8;
+}
+
+.modal .title {
+  font-size: 18px;
+  margin-bottom: -10px;
+}
+.modal .subtext {
+  font-size: 12px;
+}
+
+.modal button {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #f9faf8;
+  font-size: 14px;
+}
